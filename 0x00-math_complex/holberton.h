@@ -9,5 +9,6 @@ typedef struct complex
 } complex;
 
 void display_complex_number(complex c);
+complex conjugate(complex c);
 
 #endif /* HOLBERTON_H*/
