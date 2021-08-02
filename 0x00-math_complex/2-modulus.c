@@ -12,5 +12,6 @@
 double modulus(complex c)
 {
 	double sqr = 2.0;
+
 	return (sqrt(pow(c.re, sqr) + pow(c.im, sqr)));
 }
