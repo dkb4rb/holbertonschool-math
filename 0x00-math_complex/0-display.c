@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include "holberton.h"
 
+/**
+ * display_complex_number - check the code for Holberton School students.
+ *
+ * Return: Always double.
+ * @c: is a variable double of structur complex.
+ */
+
 void display_complex_number(complex c)
 {
 	if (c.im == 0 && c.re == 0)
