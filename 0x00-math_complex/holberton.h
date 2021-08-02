@@ -2,6 +2,7 @@
 #define HOLBERTON_H
 #include <math.h>
 #include <stdio.h>
+#define PI 3.14159265
 
 /**
  * struct complex - is a struct that get two doubles.

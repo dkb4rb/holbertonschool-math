@@ -11,10 +11,6 @@
 
 double modulus(complex c)
 {
-	double sqr = 0.2, rslt, mod;
-
-	rslt = pow(c.re, sqr) + pow(c.im, sqr);
-
-	mod = sqrt(rslt);
-	return (mod);
+	double sqr = 2.0;
+	return (sqrt(pow(c.re, sqr) + pow(c.im, sqr)));
 }
